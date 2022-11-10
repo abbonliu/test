@@ -31,7 +31,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of Hoogii are you running? <a>https://chrome.google.com/webstore/detail/hoogii-wallet/jljjeghmeihjegifdhbghcoihdiegkkl</a>
+      description: What version of Hoogii are you running? Check your current version here: <a>https://chrome.google.com/webstore/detail/hoogii-wallet/jljjeghmeihjegifdhbghcoihdiegkkl</a>
       placeholder: ex. v0.0.8
     validations:
       required: true
