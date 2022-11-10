@@ -27,6 +27,15 @@ body:
       value: "A bug happened while I was..."
     validations:
       required: true
+  - type: textarea
+    id: waht-you-expected
+    attributes:
+      label: What you expected?
+      description: Please tell us what you expected to happen?
+      placeholder: Tell us what you expected to happen!
+      value: "I expected... to happen while I was..."
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
