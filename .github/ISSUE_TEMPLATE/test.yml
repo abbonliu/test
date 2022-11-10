@@ -19,7 +19,6 @@ body:
     validations:
       required: false
       <br>
-      </br>
   - type: textarea
     id: what-happened
     attributes:
