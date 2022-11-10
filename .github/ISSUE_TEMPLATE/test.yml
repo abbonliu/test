@@ -18,7 +18,9 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-      <br>
+  
+  <br></br>
+  
   - type: textarea
     id: what-happened
     attributes:
