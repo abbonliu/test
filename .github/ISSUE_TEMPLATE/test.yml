@@ -27,26 +27,23 @@ body:
       value: "A bug happened while I was..."
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      description: What version of Hoogii are you running?
+      placeholder: ex. v0.0.8
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: device
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What system are you seeing the problem on (and the system version if possible)?
       multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      options: 
+      - macOS
+      - Windows
+      - Linux
   - type: textarea
     id: logs
     attributes:
