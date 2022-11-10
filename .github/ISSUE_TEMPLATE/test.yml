@@ -18,7 +18,7 @@ body:
       placeholder: ex. email@example.com, hello#1234
     validations:
       required: false
-  - type: textarea
+  - type:  textarea
     id: what happened
     attributes:
       label: What happened?
