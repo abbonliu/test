@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out Hoogii's bug report!
-        We can't guarantee when your problem will be fixed, but we will do our best to fix every bug report
+        We can't guarantee when your problem will be fixed, but we will do our best to fix every bug report.
   - type: input
     id: contact
     attributes:
@@ -58,3 +58,7 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your great suggestion, welcome to join our Discord and follow our latest news and updates: <a>https://discord.com/invite/eQkGXgprvn</a>
