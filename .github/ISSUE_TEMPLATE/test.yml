@@ -5,9 +5,9 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
-  - type: markdown
+- type: markdown
     attributes:
-    - value:
+    value:
         Thanks for taking the time to fill out Hoogii's bug report!
         We cannot guarantee when your problem will be fixed, but we will do our best to fix every bug report.
   - type: input
